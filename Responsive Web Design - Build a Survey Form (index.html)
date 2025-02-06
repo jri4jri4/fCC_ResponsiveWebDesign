@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+<body>
+  <h1 id="title">Website Design Inquiry </h1>
+  <p id="description">Hi there! Thanks for visiting.  If you are interested in having a website created, please use the below form to provide some basic information regarding your needs and wants.  I'll review and be in touch as soon as I can to discuss how to make your website a reality!</p>
+  <form id="survey-form">
+    <fieldset>
+      <label for="name">
+      Name<input type="text" id="name" name="name" placeholder="enter your first and last name" required />
+    </label>
+    <label for="email">
+      Email Address<input type="email" id="email" name="email" placeholder="enter your email address" required />
+    </label>
+    </fieldset>
+    <fieldset>
+    <label for="number">
+      Number of Pages<input type="number" id="number" name="number" min="1" max="1000" placeholder="How many pages does your website need?"/>
+      </label>
+      <label for="dropdown">
+        Do you need a contact us page created?<select id="dropdown">
+        <option>Yes</option>
+        <option>No</option>
+        </select>
+       </label>
+</fieldset>
+<fieldset>
+  <legend>Best way to contact you?</legend>
+ <label for="phone"><input id="phone" type="radio" name="bestcontact" class="inline" checked /> Phone</label>
+        <label for="email"><input id="email" type="radio" name="bestcontact" class="inline" /> Email</label>
+</fieldset>
+  </form>
+</body>
+</html>

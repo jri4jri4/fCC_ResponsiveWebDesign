@@ -57,7 +57,7 @@
     </label>
   </fieldset></div>
   <p><div class="questions"><fieldset><legend>Any additional comments, questions, or requests:</legend><textarea id="comments" name="comments" rows="7"
-  placeholder="I like coding on the beach..."></textarea>
+  placeholder="Please let me know if you have any additional comments, questions, or requests."></textarea>
   </fieldset></div>
   <p><label for="submit" name="submit"><input id="submit" type="submit" value="submit" />
   </label></p>

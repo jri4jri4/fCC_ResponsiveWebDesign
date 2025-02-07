@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+<body>
+  <h1 id="title">Website Design Inquiry</h1>
+  <div class="intro"><p id="description">Hi there! Thanks for visiting.  If you are interested in having a website created, please use the below form to provide some basic information regarding your wants and needs.  I'll review and be in touch as soon as I can to discuss how to make your website a reality!</div></p>
+  <form id="survey-form">
+    <div class="contactinfo"><fieldset>
+     <legend>Your Contact Info</legend>
+      <label for="name" id="name-label">
+      Full Name: <input type="text" id="name" name="name" placeholder="enter your first and last name" required />
+    </label>
+    <label for="email" id="email-label">
+      Email Address: <input type="email" id="email" name="email" placeholder="enter your email address" required />
+    </label>
+     <label for="phonenumber" id="phonenumber-label">
+      Phone Number: <input type="text" id="phonenumber" name="phonenumber" placeholder="telephone number" min="0-9,10" required />
+    </label>
+    </fieldset></div>
+    <p>
+   <div class="designinfo"><fieldset>
+      <legend>Basic Design Info</legend>
+    <p><label for="number" id="number-label">
+      Number of Pages: <input type="number" id="number" name="number" min="1" max="1000" placeholder="How many pages does your website need?" required />
+      </label></p>
+     <p><label for="dropdown">
+        Do you need a contact us page created? <select id="dropdown">
+        <option>Yes</option>
+        <option>No</option>
+        <option>Maybe</option>
+        </select>
+       </label></p>
+</fieldset>
+</div>
+<p>
+<div class="bestway"><fieldset>
+  <legend>Best way to contact you?</legend>
+ <p><label for="phone"><input id="phone" type="radio" name="bestcontact" class="inline" value="phone" checked /> Phone</label></p>
+        <p><label for="email"><input id="email" type="radio" name="bestcontact" class="inline" value="radio" /> Email</label></p>
+</fieldset></div>
+<p>
+  <div class="checkboxes"><fieldset>
+  <legend>Check all that interest you:</legend>
+    <label for="checkboxes" name="checkboxes">
+    <input id="checkboxes" type="checkbox" value="Homepage" class="inline" /> Homepage 
+    <p><input id="checkboxes" type="checkbox" value="Photo Gallery"
+    class="inline" /> Photo Gallery</p>
+    <p><input id="checkboxes" type="checkbox" value="Contact Us" class="inline" /> About Us</p>
+    <p><input id="checkboxes" type="checkbox" value="Contact Us"
+    class="inline" /> Contact Us</p>
+    <p><input id="checkboxes" type="checkbox" value="Contact Us"
+    class="inline" /> Blog</p>
+    </label>
+  </fieldset></div>
+  <p><div class="questions"><fieldset><legend>Any additional comments, questions, or requests:</legend><textarea id="comments" name="comments" rows="7"
+  placeholder="I like coding on the beach..."></textarea>
+  </fieldset></div>
+  <p><label for="submit" name="submit"><input id="submit" type="submit" value="submit" />
+  </label></p>
+  </form>
+</body>
+</html>

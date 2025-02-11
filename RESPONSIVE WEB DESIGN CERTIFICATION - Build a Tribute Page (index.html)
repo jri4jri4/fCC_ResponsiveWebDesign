@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="freeCodeCamp Build a Tribute Page Certification Project" />
+    <title id="title">Bulbasaur is the best Pokemon</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo"><img id="logo" alt="Pokeball Logo" src="https://github.com/jri4jri4/freeCodeCampHostImages/blob/main/pokeball1.png?raw=true"></div>
+      <div class="navtitle"><h1>Bulbafans Unite!</h1></div>
+            <nav>
+        <ul>
+         <li><a href="#wholink">Who</a></li>
+          <li><a href="#whatlink">What</a></li>
+          <li><a href="#whylink">Why</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <h1>Bulbasaur is the best Pokemon<br>...and I'm gonna tell you why.</h1>
+      <div id="img-div">
+      <img id="image" src="https://github.com/jri4jri4/freeCodeCampHostImages/blob/main/bulbasaurheader.png?raw=true" alt="A ferocious looking Bulbasaur">
+      <figcaption id="img-caption">A ferocious looking Bulbasaur</figcaption>
+      </div>
+      <fieldset><div id="tribute-info">
+        <h2 id="who"> Who is Bulbasaur?</h2>
+      <p>Bulbasaur is a grass-type pokemon from the Kanto region and is #001 listed in the Pokedex.  It is one of the first three starter Pokemon, along with Charmander and Squirtle.  Bulbasaur evolves into Ivysaur and Venusaur.  It's strongest attack is Solar Beam, in which it collects light from the sun and uses the stored energy to attack. <a id="tribute-link" href="https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pok%C3%A9mon)" target="_blank">Click here</a> to learn more about Bulbasaur!</p></div></fieldset>
+    <fieldset><h2 id="what">What are Bulbasaur's Strengths and Weaknesses?</h2>
+      <p>Bulbasaur is strongest against rock- and ground-type Pokemon as his plant attacks can destroy earthen creatures.  Bulbasaur is weakest against fire Pokemon because he can burn easily.</p></fieldset>
+     <fieldset><h2 id="why">Why is Bulbasaur the Best Pokemon?</h2>
+      <p>Bulbasaur is the best Pokemon.  First, he is a frog with a flower on his back that grows.  Second, he is green and who doesn't love the color green?  Third, not only is he #001 in your hearts, but he is #001 in the Pokedex as well.  For being in general awesome, Bulbasaur is the best Pokemon, hands-down!</p></fieldset>
+      </main>
+      </body>
+      <footer>
+        <p>James I. &copy2025</p><p><a id="freecodecamp" href="https://www.freecodecamp.org/">freeCodeCamp</a></p><p>Responsive Web Design - Build a Tribute page</p><p>CERTIFICATION PROJECT</p>
 
+        </footer>
+</html>

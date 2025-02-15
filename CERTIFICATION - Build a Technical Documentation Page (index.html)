@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="freeCodeCamp Build a Technical Documentation Page" />
+    <title id="title">fCC Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">      <header class="navbar-header">QDRO Consultants</header>
+      <a class="nav-link" href="#Frequently_Asked_Questions">Frequently Asked Questions</a>
+      <a class="nav-link" href="#What_is_a_QDRO?">What is a QDRO?</a>
+      <a class="nav-link" href="#What_is_a_DRO?">What is a DRO?</a>
+      <a class="nav-link" href="#Who_is_QC?">Who is QC?</a>
+      <a class="nav-link" href="#Who_is_a_Participant?">Who is a Participant?</a>
+     <a class="nav-link" href="#Who_is_an_Alternate_Payee?">Who is an Alternate Payee?</a>
+      <a class="nav-link" href="#Can_I_prepare_a_QDRO_myself?">Can I prepare a QDRO myself?</a>
+  
+      <a class="nav-link" href="#How_do_I_submit_a_DRO_for_review?">How do I submit a DRO for review?</a>
+      <a class="nav-link" href="#How_long_does_this_process_take?">How long does this process take?</a>
+      <a class="nav-link" href="#Can_a_draft_DRO_be_submitted_for_preapproval_review?">Can a draft DRO be submitted for preapproval review?</a>
+      <a class="nav-link" href="#I_submitted_my_DRO,_what_happens_next?">I submitted my DRO, what happens next?</a>
+      <a class="nav-link" href="#Will_I_receive_a_fair_share?">Will I receive a fair share?</a>
+      <a class="nav-link" href="#Does_QC_provide_calculations?">Does QC provide calculations?</a>
+      <a class="nav-link" href="#Can_QC_provide_account_balances?">Can QC provide account balances?</a>
+      <a class="nav-link" href="#Must_a_DRO_be_issued_by_a_state_court?">Must a DRO be issued by a state court?</a>
+      <a class="nav-link" href="#What_is_required_in_a_QDRO?">What is required in a QDRO?</a>
+      <a class="nav-link" href="#Are_there_other_requirements?">Are there other requirements?</a>
+      <a class="nav-link" href="#May_a_QDRO_be_part_of_the_Divorce_Decree?">May a QDRO be part of the Divorce Decree?</a>
+      <a class="nav-link" href="#More_Information">More Information</a>
+         </nav>
+         <main id="main-doc">    <section class="main-section"  id="Frequently_Asked_Questions"><header id="first-header">Frequently Asked Questions</header>
+            <p>This information is intended for informational purposes and to provide background on the standard QDRO review and determination process. Please note that plan procedures may vary. In all cases, the parties are reminded that a plan’s QDRO Procedures establish the process for determinations.</p></section>
+      <section class="main-section" id="What_is_a_QDRO?">
+        <header>What is a QDRO?</header>
+        <p>A QDRO is a DRO that <code>(1) requires the Plan Administrator to assign or transfer some or all of a Participant’s Plan benefits to an Alternate Payee, (2) contains the information required by ERISA Section 206(d)(3)(C), (3) does not violate the restrictions in ERISA Section 206(d)(3)(D), and (4) satisfies the other requirements contained in these QDRO Procedures.</code> Also, a DRO is not a QDRO until QDRO Consultants has determined, consistent with the Plan Administrator’s instructions, that the DRO is qualified.</p>
+      </section>
+     <section class="main-section" id="What_is_a_DRO?"><header>What is a DRO?</header><p>Generally, a DRO is a court order, or an order issued by another authorized state agency, that (1) is made pursuant to a state domestic relations law, and (2) provides for payment of child support, alimony, or marital property rights to an Alternate Payee.</p></section>
+      <section class="main-section" id="Who_is_QC?"><header>Who is QC?</header><p>QDRO Consultants, was hired by the Plan Administrator (or Plan Recordkeeper) to review DROs related to the Plan, to determine whether DROs are qualified pursuant to the Plan’s QDRO Procedures, and to send relevant notices to the interested parties.</p></section>
+    <section class="main-section" id="Who_is_a_Participant?"><header>Who is a Participant?</header><p>An individual who has a benefit in the Plan.</p></section>
+        <section class="main-section" id="Who_is_an_Alternate_Payee?"><header>Who is an Alternate Payee?</header><p>An Alternate Payee is a Participant’s spouse, former spouse, child, or other dependent who is assigned Plan benefits in a DRO.</p></section>
+      <section class="main-section" id="Can_I_prepare_a_QDRO_myself?"><header>Can I prepare a QDRO myself?</header><p>Yes, you may use the template provided to prepare your own draft DRO. However, please keep in mind that the draft DRO must be signed by a Judge and filed with the appropriate state court. It is the drafting party’s responsibility to format the draft DRO to satisfy the court’s requirements (similar to formatting on the divorce decree or other court order). Please contact the Clerk of Courts to confirm if any modifications may need to be made in order to comply with the court’s requirements, such as:
+<ul>
+   <li>Modify the court captions and/or signature line for the Judge</li>
+    <li>Add signature lines for the Participant, and Alternate Payee and/or legal counsel</li>
+    </ul>
+</p></section>
+     <section class="main-section" id="How_do_I_submit_a_DRO_for_review?"><header>How do I submit a DRO for review?</header><p>You can securely submit a DRO to QDRO Consultants <a href="https://qdros.com/submit">here</a>.</p></section>
+     <section class="main-section" id="How_long_does_this_process_take?"><header>How long does this process take?</header><p>Be sure to check out the <a href="https://qdros.com/services/qdros/understanding-the-process.html">process flowchart</a> to allow you to review the process from start to finish or download a checklist to help guide you through the process.</p></section>
+    <section class="main-section" id="Can_a_draft_DRO_be_submitted_for_preapproval_review?"><header>Can a draft DRO be submitted for preapproval review?</header><p>Yes. The Plan Administrator will only enforce a court executed DRO that complies with the Plan’s QDRO Procedures and applicable federal law. However, you may choose to submit a draft DRO to QDRO Consultants for review before having it executed by the court.</p></section>
+     <section class="main-section" id="I_submitted_my_DRO,_what_happens_next?"><header>I submitted my DRO, what happens next?</header><p>Typically, the specialist handling your case will review the DRO and send a response within 30 days. Depending on the information you included, you will receive it either by mail or email. The letter will provide the status of the DRO and next steps.</p></section>
+    <section class="main-section" id="Will_I_receive_a_fair_share?"><header>Will I receive a fair share?</header><p>QDRO Consultants cannot answer questions regarding whether a QDRO has fairly or equitably divided the Participant’s benefits among the Participant and Alternate Payee. Instead, QDRO Consultants’ role is limited to the technical requirements of DRO review and QDRO determination. It is the responsibility of the court or the parties and/or their attorneys to determine what is fair and equitable, and to determine the QDRO’s substantive provisions, including the benefit assignment.</p></section>
+        <section class="main-section" id="Does_QC_provide_calculations?"><header>Does QC provide calculations?</header><p>No. QDRO Consultants reviews DROs related to the Plan, to determine whether DROs are qualified pursuant to applicable Federal law and the Plan’s QDRO Procedures and send relevant notices to the interested parties. Once a DRO is qualified, QDRO Consultants provides detailed instructions to the Plan’s recordkeeper (or actuary) who will calculate and determine the assigned benefit based on the terms of the QDRO.</p></section>
+        <section class="main-section" id="Can_QC_provide_account_balances?"><header>Can QC provide account balances?</header><p>In most cases, no. QDRO Consultants reviews DROs related to the Plan, to determine whether DROs are qualified pursuant to applicable Federal law and the Plan’s QDRO Procedures and send relevant notices to the interested parties. Parties would need to contact the Plan’s recordkeeper or benefits department for this type of information.</p></section>
+      <section class="main-section" id="Must_a_DRO_be_issued_by_a_state_court?"><header>Must a DRO be issued by a state court?</header><p>A domestic relations order may be issued by any state agency or instrumentality with the authority to issue judgments, decrees, or orders, or to approve property settlement agreements, pursuant to state domestic relations law (including community property law).</p><p><code>Reference: ERISA § 206(d)(3)(B)(ii); IRC § 414(p)(1)(B); Advisory Opinion 2001-06A.</code></p>
+  </section>
+      <section class="main-section" id="What_is_required_in_a_QDRO?"><header>What is required in a QDRO?</header><p>QDROs must contain the following information:
+        <ul>
+          <li>The name and last known mailing address of the participant and each alternate payee</li>
+          <li>The name of each plan to which the order applies</li>
+          <li>The dollar amount or percentage (or the method of determining the amount or percentage) of the benefit to be paid to the alternate payee</li>
+          <li>The number of payments or time period to which the order applies</li>
+          </ul>
+          </p>
+          <p><code>Reference: ERISA § 206(d)(3)(C)(i)-(iv); IRC § 414(p)(2)(A)-(D)</code></p></section>
+          <section class="main-section" id="Are_there_other_requirements?"><header>Are there other requirements?</header><p>There are certain provisions that a QDRO must not contain:
+            <ul>
+              <li>The order must not require a plan to provide an alternate payee or participant with any type or form of benefit, or any option, not otherwise provided under the plan</li>
+              <li>The order must not require a plan to provide for increased benefits (determined on the basis of actuarial value)</li>
+              <li>The order must not require a plan to pay benefits to an alternate payee that are required to be paid to another alternate payee under another order previously determined to be a QDRO</li>
+              <li>The order must not require a plan to pay benefits to an alternate payee in the form of a qualified joint and survivor annuity for the lives of the alternate payee and his or her subsequent spouse</li>
+              </ul>
+              </p><p><code>Reference: ERISA §§ 206(d)(3)(D)(i)-(iii), 206(d)(3)(E)(i)(III); IRC §§ 414(p)(3)(A)-(C), 414(p)(4)(A)(iii)</code></p></section>
+          <section class="main-section" id="May_a_QDRO_be_part_of_the_Divorce_Decree?"><header>May a QDRO be part of the Divorce Decree?</header><p>There is nothing in ERISA or the Code that requires that a QDRO (that is, the provisions that create or recognize an alternate payee's interest in a participant's retirement benefits) be issued as a separate judgment, decree, or order. Accordingly, a QDRO may be included as part of a divorce decree or court-approved property settlement, or issued as a separate order, without affecting its qualified status. The order must satisfy the requirements described above to be a QDRO.</p>
+          <p><code>Reference: ERISA § 206(d)(3)(B); IRC § 414(p)(1)</code></p></section>
+          <section class="main-section" id="More_Information"><header>More Information</header><p>For more information on QDROs requirements, the US Department of Labor developed a comprehensive, accessible resource <a href="https://www.dol.gov/sites/dolgov/files/ebsa/about-ebsa/our-activities/resource-center/publications/division-of-retirement-benefits-through-qualified-domestic-relations-orders.pdf">"The Division of Retirement Benefits Through Qualified Domestic Relations Orders."</a> </p></section>
+      </main>
+    </body>
+    </html>

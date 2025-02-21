@@ -1,1 +1,68 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="freeCodeCamp Certification - Build a Product Landing Page">
+    <title id="title">Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  <header id="header">
+    <img src="https://github.com/jri4jri4/freeCodeCampHostImages/blob/main/Logo1%20w%20text.png?raw=true" alt="Logo Image" id="header-img">
+      <div class="nav-bar"><nav id="nav-bar">
+      <ul id="ul-nav-bar">
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#pricing" class="nav-link">Pricing</a></li>
+        <li><a href="#contact_us" class="nav-link">Contact Us</a></li>
+      </ul>
+  </nav>
+    </div>
+</header>
+    <main class="main-section">
+         <div class="tagline" id="tagline"><h2 id="h2-header">Websites. Simplified.</h2></div>       <div class="form"><section class="form">
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">                <p>Get started by entering your email:</p>
+                <input type="email" id="email"
+name="email" placeholder=" Enter your email address" required>
+                <input type="submit" id="submit" value="Let's do this!">
+            </form>
+        </section></div>
+        <div class="hero">
+            <h1 id="h1-hero">Air Heart Design</h1>
+            <p id="intro">We take pride in creating responsive, clean websites that increase your internet presence.  Increased traffic will lead to more sales and better results for your business.  We take care to minimize the amount of information thrown at consumers, taking a minimilistic approach that focuses on core data points on the front-end and excellent SEO on the back-end.  Contact us today to request more information on how we can help your business website needs today!</p>
+        </div>
+<div class="Services" id="services">
+  <h2>Services we offer</h2>
+  <p>We simplify your web design needs by offering all-inclusive services such as:</p>
+  <div class="services-list"><ul id="services-list">
+    <li>Website design, coded from scratch--your custom website will be unlike any other found on the web!</li>
+    <li>SEO ("Search Engine Optimization") to enhance your ability to be found in searches</li>
+    <li>Brand design, including logos and other materials to increase your brand's awareness.</li>
+    </ul></div>
+  </div>
+  <hr>
+  <div class="Pricing" id="pricing">
+    <h2>Fair, upfront pricing</h2>
+  <p>Our fee structure offers options for any budget, including monthly or one-time payments.  We will work with you to make the website of your dreams a reality within the confines of your budget.</p>
+    </div>
+    <hr>
+    <div class="Contact_Us" id="contact_us">
+<h2>Contact Us</h2>
+  <p>Interested?  We would love to <a href="#email">connect</a> about how we can grow your online presence! Please provide us with your email address and we will be in touch soon to <a href="#email">schedule a free consultation.</a></p>
+    </div>
+      <div id="cat-song"><p>That was so simple, you have time to dance to a cat song!</p>
+    <div class="video"><section id="video-container">      <iframe id="video"
+width="560" height="315" src="https://www.youtube-nocookie.com/embed/uIdD8aVArU0?si=SUD4Xy2yq4bTj9q1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></section></div></div>
+    </main>
+    <div class="footer"><footer class="footer" id="footer">
+      <p id="company_name">&copy; Air Heart Design 2025</p>
+        <p>Address Line 1</p>
+        <p>Address Line 2</p>
+        <p>Telephone Number</p>
+        <p><a href="email@email.com">email@email.com</a></p>
+      </footer></div>
+  </body>
+</html>

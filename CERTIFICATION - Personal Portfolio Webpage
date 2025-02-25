@@ -1,0 +1,406 @@
+/* index.html */
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="freeCodeCamp Certification - Build a Personal Portfolio Webpage">
+    <title id="title">Personal Portfolio Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+     <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+    </head>
+<body>
+      <header class="header">
+      <div class="nav-bar">
+        <img src="https://github.com/jri4jri4/freeCodeCampHostImages/blob/main/Logo1%20w%20text.png?raw=true" alt="Logo with text" id="nav-logo">
+        <nav id="navbar">
+          <ul>
+            <li><a href="#welcome-section" class="nav-link">Welcome</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#more-info" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+        </header>
+        <main class="main-section"><section id="welcome-section">
+          <img src="https://github.com/jri4jri4/freeCodeCampHostImages/blob/main/Logo1_color.png?raw=true" alt="Logo without text" id="logo1" loading="lazy">
+  <h1 id="company-name">Air Heart Design</h1>
+  <h2 id="tagline">Websites.  Simplified.</h2>
+  <p>Thank you for taking the time to view some of my past projects. 
+        </section>
+        <section id="projects">
+    <div class="project-gallery">
+    <h1 id="pg"> Project Gallery</h1>
+    <h2 id="explain">These are a few of the projects I have completed</h2>
+   <p>Click on each image below to view the code on my Codepen!</p></div>
+    <div class="project-tile">
+      <a href="https://codepen.io/jri4jri4/pen/vEYKXMJ"><img src="https://github.com/jri4jri4/freeCodeCampHostImages/blob/main/Survey%20Form%20Screenshot.png?raw=true"></a>
+      <a href="https://codepen.io/jri4jri4/pen/vEYKXPJ"><img src="https://github.com/jri4jri4/freeCodeCampHostImages/blob/main/Tribute%20Page%20Screenshot.png?raw=true"></a>
+      <a href="https://codepen.io/jri4jri4/pen/yyLJaGr"><img src="https://github.com/jri4jri4/freeCodeCampHostImages/blob/main/Technical%20Documentation%20Screenshot.png?raw=true"></a>
+      <a href="https://codepen.io/jri4jri4/pen/wBvWzOx"><img src="https://github.com/jri4jri4/freeCodeCampHostImages/blob/main/Product%20Landing%20Page%20Screenshot.png?raw=true"></a></div>
+    <section id="more-info"><h1 id="more1">More Info</h1><h2 id="more2">For more projects, please visit my <a href="https://github.com/jri4jri4" id="profile-link" target="_blank">GitHub</a>!</h2></section>
+  </div>
+        </section>
+        <section id="contact-me">
+          <p id="contact">If interested in collaborating, please reach out on social media:</p>
+          <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </section>
+        <div class="footer"><footer class="footer" id="footer">
+      <p id="company_name">&copy; Air Heart Design 2025</p>
+        <p>Address Line 1</p>
+        <p>Address Line 2</p>
+        <p>Telephone Number</p>
+        <p><a href="email@email.com">email@email.com</a></p>
+      </footer></div>
+  </main>     
+      </body>
+      </html>
+
+/* styles.css */
+* {
+  box-border: none;
+  margin: 0px;
+  padding: 0px;
+  font-family: nunito, sans-serif;
+}
+
+body {
+background-color: white;
+}
+
+.nav-bar {
+background: linear-gradient(270deg, #8ee7fa, white);
+padding: 5px 30px 5px;
+position: fixed;
+width: 100vw;
+height: 75px;
+z-index: 1;
+}
+
+#nav-logo {
+  position: fixed;
+  top: 0px;
+  height: 100px;
+  width: 500px;
+}
+
+.nav-link {
+   display: block;
+   position: relative;
+   margin: 0 10px;
+   font-family: nunito, sans-serif;
+   text-align: center;
+   height: 25px;
+   width: 150px;
+   padding: 10px;
+   font-size: 20px;
+   border: 4px solid #8ee7fa;
+   border-radius: 5%;
+   background-color: white;
+   color: #A90112;
+   text-decoration: none;
+   box-shadow: 5px 5px 10px gray;
+   left: 700px;
+   top: 10px;
+ }
+
+ .nav-link:hover {
+   box-shadow: 0px 0px 50px white;
+ }
+
+nav > ul {
+  display: flex;
+  list-style-type: none;
+}
+
+main {
+position: relative;
+top: 200px;
+z-index: 0;
+height: 100vh;
+}
+
+#logo1 {
+  height: 60vh;
+  width: 60vh;
+  margin: -70px;
+  animation: 3.5s linear 1 emerge;
+}
+
+#welcome-section {
+  height: 100%;
+  text-align: center;
+}
+
+#company-name {
+  font-size: 60px;
+  color: #a90112
+}
+
+#tagline {
+  font-size: 36px;
+}
+
+.project-gallery {
+  text-align: center;
+}
+
+#pg {
+  font-size: 60px;
+  color: #a90112;
+}
+
+#explain {
+  font-size: 36px;
+}
+
+.project-tile {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.project-tile > a > img {
+  height: 300px;
+  box-shadow: 3px 3px 6px gray;
+}
+
+#more-info {
+  margin: 200px 0 0 0;
+  height: 100%;
+}
+
+#more1 {
+font-size: 60px;
+  color: #a90112;
+}
+
+#more2 {
+  font-size: 36px;
+}
+
+#contact-me {
+text-align: center;
+}
+
+i {
+font-size: 40px;
+padding: 10px 0 0 0;
+margin: 10px;
+height: 50px;
+width: 50px;
+color: #a90112;
+box-shadow: 5px 5px 5px gray;
+border: 4px solid #8ee7fa;
+border-radius: 5%;
+background-color: white;
+}
+
+i:hover {
+  border: 4px solid #a90112;
+  color: #8ee7fa;
+}
+
+#projects
+{
+  text-align: center;
+}
+
+#contact-me {
+  padding-bottom: 50px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 5px 0 5px 0;
+  height: 100px;
+  width: 100%;
+  background: linear-gradient(270deg, #8ee7fa, white);
+  font-size: 12px;
+}
+
+#company_name {
+  color: #a90112;
+}
+
+a {
+  color: #A90112;
+}
+
+a:visited {
+  color: #A90112;
+}
+
+/* Smooth Scrolling */
+@media (prefers-reduced-motion: no-preference) {
+  * {
+  scroll-behavior: smooth;
+}
+}
+
+@keyframes emerge {
+  0% {
+    transform: scaleY(0) scaleX(0);
+  }
+
+  100% {
+    transform: scaleY(1) scale x(1);
+  }
+}
+
+/* Media query for mobile devices */
+@media (min-width: 0px) and (max-width: 480px) {
+  .nav-bar {
+    position: stick;
+    display: flex;
+    width: 100vw;
+    margin: auto;
+
+  }
+
+  #nav-logo {
+    width: 100vw;
+  }
+
+  .nav-link {
+    position: sticky;
+    width: 100vw;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  .nav-link:hover {
+    background-color: #8ee7fa
+  }
+
+  nav > ul {
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    margin: auto;
+  }
+
+  li {
+    position: relative;
+    width: 110vw;
+    right: 130px;
+  }
+
+  #logo1{
+    height: 150px;
+    width: 150px;
+    padding-bottom: 40px;
+  }
+
+  .main-section {
+    padding-top: 100px;
+  }
+
+  #welcome-section {
+    margin-top: -225px;
+    padding-top: 310px;
+  }
+
+  #more-info {
+    margin-top: 0px;
+    padding-top: 250px;
+    flex-wrap: wrap;
+  }
+
+  #contact-me {
+    padding-bottom: 150px;
+  }
+
+  #projects {
+    padding-top: 250px;
+    margin-top: -400px;
+  }
+
+  .project-tile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-tile > img {
+    width: 90%;
+    height: 90%;
+    border: 3px solid #a90112;
+  }
+
+  img {
+    width: 90vw;
+  }
+}
+
+/* Media query for tablet devices */
+@media (min-width: 481px) and (max-width: 1025px) {
+    
+  .nav-bar {
+    max-width: 1025px;
+    height: 100px;
+    overflow: scroll;
+
+  }
+
+  #nav-logo {
+    position: absolute;
+    width: 300px;
+  }
+
+  .nav-link {
+    position: absolute;
+  }
+
+  .nav-link:hover {
+    background-color: #8ee7fa
+  }
+
+  nav > ul {
+    position: relative;
+    right: 300px;
+  }
+
+  li {
+    position: relative;
+    width: 200px;
+    right: 100px;
+    margin: 0px;
+  }
+
+    #welcome-section {
+    margin-top: 0;
+    padding-top: 160px;
+  }
+
+  #more-info {
+    margin-top: 0px;
+    padding-top: 125px;
+    flex-wrap: wrap;
+  }
+
+  #contact-me {
+    padding-bottom: 50px;
+  }
+
+  #projects {
+    padding-top: 125px;
+    margin-top: 0px;
+  }

@@ -1,3 +1,4 @@
+/* index.html */
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -78,3 +79,113 @@
       </main>
     </body>
     </html>
+
+/* styles.css */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+#main-doc {
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 250px;
+  font-size: 18px;
+  padding: 20px;
+}
+
+#navbar {
+  width: 250px;
+  background-color: #233f7e;
+  position: fixed; 
+  display: flex;
+  flex-direction: column;
+  max-height:100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  z-index: 1;
+}
+
+a.nav-link {
+  display: block;
+  width: 250px;
+  padding: 20px 5px;
+  border: 3px solid #3fc2cf;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  text-decoration: none;
+  color: white;
+}
+
+a.nav-link:hover {
+  hover: cursor;
+  background-color: #fc7418
+}
+
+.navbar-header {
+  font-size: 36px;
+  text-align: center;
+  color: white;
+}
+#first-header {
+  color: #233f7e;
+  font-size: 40px;
+}
+
+header {
+  font-size: 30px;
+  color: #233f7e;
+  margin: -5px;
+}
+
+.main-section {
+  margin: 10px;
+  border-bottom: solid 2px #3fc2cf;
+  padding: 10px 0 10px 0;
+}
+
+ul {
+  margin: 20px 20px;
+}
+
+p {
+  margin-top: 20px;
+}
+
+code {
+  font-size: 12px;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 500px) {
+  #navbar {
+    position: sticky;
+    width: 100vw;
+    height: 200px;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .navbar-header {
+    margin: 10px;
+  }
+
+  #navbar ul {
+    display: flex;
+  }
+
+  a.nav-link {
+    width: 100vw;
+    margin: 0;
+    padding: 5px;
+  }
+
+  #main-doc {
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+  }
+}

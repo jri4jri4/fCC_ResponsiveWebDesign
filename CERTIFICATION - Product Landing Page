@@ -1,3 +1,4 @@
+/* index.html */
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -66,3 +67,260 @@ width="560" height="315" src="https://www.youtube-nocookie.com/embed/uIdD8aVArU0
       </footer></div>
   </body>
 </html>
+
+/* styles.css */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: nunito, sans-serif;
+}
+
+body {
+  background-color: rgba(142, 231, 250, 0.1);
+}
+
+#header {
+  position: fixed;
+  height: 100px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  z-index: 1;
+  background: linear-gradient(270deg, #8ee7fa, white);
+  }
+
+#header-img {
+  height: 100px;
+  width: 900px;
+  max-height: 100px;
+  padding-right: 10vw;
+}
+
+.nav-bar {
+  height: 100px;
+  width: 100vw;
+ }
+
+ .nav-link {
+   display: block;
+   position: relative;
+   margin: 25px;
+   font-family: nunito, sans-serif;
+   text-align: center;
+   height: 50px;
+   width: 150px;
+   padding: 10px;
+   font-size: 20px;
+   border: 4px solid #8ee7fa;
+   border-radius: 5%;
+   background-color: white;
+   color: #A90112;
+   text-decoration: none;
+   box-shadow: 5px 5px 10px gray;
+ }
+
+ .nav-link:hover {
+   box-shadow: 0px 0px 50px white;
+ }
+
+nav > ul {
+  display: flex;
+  list-style-type: none;
+}
+
+main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 100px;
+  text-align: left;
+  margin: 0 50px 0 50px;
+}
+
+.tagline {
+  text-align: center;
+  font-size: 20px;
+  font-family: nunito, sans-serif;
+  margin: 30px 0 30px 0;
+}
+
+.form {
+  text-align: center;
+  font-size: 18px;
+}
+
+#email {
+  height: 30px;
+  width: 225px;
+  margin: 6px 0 0 0;
+  scroll-margin-top: 300px
+}
+
+#services {
+  scroll-margin-top: 300px;
+}
+
+#pricing {
+  scroll-margin-top: 300px;
+}
+
+#contact_us {
+  scroll-margin-top: 300px;
+}
+
+#submit {
+  height: 30px;
+  width: 100px;
+  margin: 6px 0 6px 0;
+}
+
+.hero {
+  padding: 30px 0 30px 0;
+}
+
+#h1-hero {
+  font-size: 50px;
+  color: #A90112;
+  text-align: center;
+}
+
+.services-list {
+  position: relative;
+  left: 20px;
+}
+
+#services-list {
+  margin: 15px 0 15px 0;
+  list-style-type: circle; 
+}
+
+#pricing {
+  margin: 15px 0 15px 0;
+}
+
+.Contact_Us {
+  margin: 15px 0 15px 0;
+}
+
+#cat-song {
+  margin: 50px 0 50px 0;
+  text-align: center;
+}
+
+#video-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 5px 0 5px 0;
+  height: 100px;
+  width: 100%;
+  background: linear-gradient(270deg, #8ee7fa, white);
+  font-size: 12px;
+}
+
+#company_name {
+  color: #A90112;
+}
+
+a {
+  color: #A90112;
+}
+
+a:visited {
+  color: #A90112;
+}
+
+/* Media query for mobile devices */
+@media (min-width: 0px) and (max-width: 480px) {
+  .nav-bar {
+    position: sticky;
+    display: flex;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  #header-img {
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    width: 98vw;
+    padding: 1px;
+    margin: 1px;
+  } 
+
+  header {
+    position: sticky;
+    display: flex;
+    text-align: center;
+    flex-direction: column; 
+  }
+
+  .nav-bar ul {
+    display: flex;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-link {
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    width: 100%;
+    padding: 3px;
+    margin: auto;
+    border: none;
+    border-radius: 0%;
+    box-shadow: none;
+  }
+
+  .nav-link:hover {
+    background-color: #8ee7fa;
+  }
+
+  main {
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+  #header {
+    background-color: white;
+  }
+}
+
+/* Media query for tablets */
+@media (min-width: 481px) and (max-width: 1025px) {
+
+  header {
+  overflow: scroll;
+  display: flex;
+  }
+
+  #header-img {
+    position: sticky;
+    display: flex;
+  }
+
+  #ul-nav-bar {
+    position: absolute;
+    left: 375px;
+  }
+
+  .nav-link {
+    margin: 25px 5px;
+  }
+}
